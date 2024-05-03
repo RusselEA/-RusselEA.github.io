@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<false/>
+	<key>destination</key>
+	<string>export</string>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://RusselEA.github.io/EJEEmployeeIPadApp/EJEEmployeeIPadApp.ipa</string>
+		<key>displayImageURL</key>
+		<string>https://RusselEA.github.io/EJEEmployeeIPadApp/images/EJEAppicon-57.png</string>
+		<key>fullSizeImageURL</key>
+		<string>https://RusselEA.github.io/EJEEmployeeIPadApp/images/EJEAppicon-512.png</string>
+	</dict>
+	<key>method</key>
+	<string>release-testing</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.eci.ejeAgent</key>
+		<string>EJEAgent_Adhoc</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>Apple Distribution</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>8235322V74</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>
